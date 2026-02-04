@@ -1,0 +1,36 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80px;
+}
+
+.box{
+    color: white;
+    font-weight: bold;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.box:nth-child(1) {background-color: red;}
+.box:nth-child(2) {background-color: yellow;}
+.box:nth-child(3) {background-color: green;}
+
+.box:hover{
+    box-shadow:0 0 20px white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.notestyle{
+   color: purple;
+  font-style: italic;
+}
