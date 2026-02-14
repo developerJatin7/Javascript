@@ -2,9 +2,6 @@
 // for (let i = 0; i <10; i++) {
 //     console.log("Apna college");
 // }
-
-const { createElement } = require("react");
-
 // for(let i=1; i<=5; i++){
 //     console.log(i);
 // } 
@@ -330,43 +327,57 @@ const { createElement } = require("react");
 // );
 // console.log(result);
 
-let textarea = document.createElement("textarea");
-let btn = document.createElement("button");
+// let textarea = document.createElement("textarea");
+// let btn = document.createElement("button");
 
-btn.innerText = "click me";
+// btn.innerText = "click me";
 
-document.body.appendChild(textarea);
-document.body.appendChild(btn);
+// document.body.appendChild(textarea);
+// document.body.appendChild(btn);
 
-textarea.setAttribute("placeholder","username");
-btn.setAttribute('id',"button");
+// textarea.setAttribute("placeholder","username");
+// btn.setAttribute('id',"button");
 
-let heading = document.createElement("h1");
-heading.innerText = "DOM PRactices";
-heading.style.textdecoration = "underline";
-heading.style.color = "purple";
-document.body.appendChild(heading);
+// let heading = document.createElement("h1");
+// heading.innerText = "DOM PRactices";
+// heading.style.textdecoration = "underline";
+// heading.style.color = "purple";
+// document.body.appendChild(heading);
 
-let para1 = document.createElement("p");
-para1.innertext = "welcome to javascript DOM";
-para1.style.fontWeight = "bold";
-para1.style.color = "green";
-document.body.appendChild("para1");
+// let para1 = document.createElement("p");
+// para1.innertext = "welcome to javascript DOM";
+// para1.style.fontWeight = "bold";
+// para1.style.color = "green";
+// document.body.appendChild("para1");
 
-let btn = document.createElement("Button");
-btn.innerText = "Show";
+// let btn = document.createElement("Button");
+// btn.innerText = "Show";
 
-let para = null;
+// let para = null;
 
-btn.addEventListener("click" , function(){
-    if(para === null){
-        para = document.createElement("p");
-        para.textcontent = ("practice makes perfect");
-        para.classList.add("notstyle");
-        document.body.appendChild(p);
-    }else{
-        para.remove();
-        para === null;
-    }
-})
+// btn.addEventListener("click" , function(){
+//     if(para === null){
+//         para = document.createElement("p");
+//         para.textcontent = ("practice makes perfect");
+//         para.classList.add("notstyle");
+//         document.body.appendChild(p);
+//     }else{
+//         para.remove();
+//         para === null;
+//     }
+// })
 
+let size = "XL";
+
+if(size === "XL"){
+    console.log("Rs.250");
+}
+else if(size === "L"){
+    console.log("Rs.200");
+}
+else if(size === "M"){
+    console.log("Rs.100");
+}
+else if(size === "S"){
+    console.log("Rs.50");
+}
