@@ -530,3 +530,46 @@ else if(days <= 20){
 else{
     console.log("fine 500")
 }
+
+function checkresult(marks){
+if((marks < 0)||(marks > 100)){
+    return"invalid marks";
+}
+if(marks >= 40){
+    return'Pass';
+}
+return "fail";
+}
+
+function withdraw(balance,amount){
+    if((balance < 0)||(amount < 0)){
+        return "invalid balance","invalid amount;"
+    }
+    if(balance >= amount){
+        return "withdraw succefuly";
+    }
+    
+        return "insufficient balance";
+    
+}
+console.log(withdraw(500,300));
+
+function getDiscount(age,time,isstudent){
+    if(age < 0){
+        return "invalid age";
+    }
+    if(time<0 || time>23){
+        return "invalid time";
+    }
+    if(!isstudent){
+        return "no discount";
+    }
+    if(age >= 60){
+        return "price 150";
+    }
+    if(age<25){
+        return "price 210";
+    }
+    return "300";
+}
+console.log(18,17,)
