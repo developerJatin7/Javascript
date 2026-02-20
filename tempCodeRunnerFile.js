@@ -1,2 +1,14 @@
-let num = Math.floor(Math.random()*100)+1;
-// console.log(num);
+let size = "XL";
+
+// if(size === "XL"){
+//     console.log("Rs.250");
+// }
+// else if(size === "L"){
+//     console.log("Rs.200");
+// }
+// else if(size === "M"){
+//     console.log("Rs.100");
+// }
+// else if(size === "S"){
+//     console.log("Rs.50");
+// }
